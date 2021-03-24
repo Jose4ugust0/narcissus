@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	background:  linear-gradient(180deg, #D81B60 0%, #E91E63 52.57%, #EC407A 100%);
+	display: flex;
+	flex-direction: column;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	margin: 10%;
+}
+
+.logo img{
+	width: 282px;
+	height: 105px;
+}
+
+.chamada h3{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+.imagem-chamada{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.imagem-chamada img{
+	width: 214px;
+	height: 219px;
+}
+
+.btns{
+	width: 300px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.login{
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 133px;
+	height: 43px;
+	background-color: #BA69C8;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.registrar{
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 133px;
+	height: 43px;
+	background-color: #F48FB1;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+
+header{
+	width: 100%;
+	height: 177px;
+	background-color: #E91E63;
+	display: flex;
+	flex-direction: column;
+}
+
+.cont{
+	width: 100%;
+	display: flex;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	justify-content: space-between;
+	
+}
+
+.logo-header img{
+	width:71px;
+	height: 22px;
+}
+
+.cont h2{
+	color: white;
+	cursor: pointer;
+}
+
+.content-text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.content-text h3{
+	width: 200px;
+	color: white;
+	font-style: italic;
+	font-weight: normal;
+}
+
+@media screen and (min-width: 400px){
+	.logo{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.logo img{
+		margin: 10px;
+	}
+	.btns{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		padding: 2px;
+	}
+
+	.login{
+		margin: 10px;
+	}
+
+	.registrar{
+		margin: 10px;
+	}
+
+}
+
+@media screen and (min-width: 1024px){
+	.row{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.chamada h3{
+		width: 300px;
+	}
+
+	.btns{
+		margin-top: 10%;
+	}
+}
+
